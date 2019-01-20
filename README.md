@@ -1,9 +1,6 @@
 # Tic-Tac-Toe
 
-Simple tic-tac-toe game made in c++ with use of sfml library.
-### New Features!
-
-Implementing AI base on fuzzy logic.
+Simple tic-tac-toe game made in c++ with use of sfml library. Ai was created basing on a MinMax Alghoritm + simple heuristic function was used.
 
 ### Installation
 
