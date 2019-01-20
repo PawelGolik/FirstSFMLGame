@@ -24,6 +24,10 @@ bool Block::WasClicked(RenderWindow &window)
     }
     return false;
 }
+
+void Block::setWasClicked(bool click){
+    _wasClicked = click;
+}
 void Block::draw(RenderTarget &target, RenderStates state) const
 {
     target.draw(_block);

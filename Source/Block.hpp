@@ -14,6 +14,7 @@ public:
     bool WasClicked(RenderWindow &window);
     Vector2f getPosition();
     Vector2f getSize();
+    void setWasClicked(bool click);
     void draw(RenderTarget &target, RenderStates state) const override ;
 };
 

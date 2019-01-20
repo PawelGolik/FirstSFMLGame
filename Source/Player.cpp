@@ -41,7 +41,6 @@ std::list<int> Player::setSpriteSizeAndPosition(Vector2f size, Vector2f positon,
     _placedCrosses[y][x] = 1;
     return {x, y};
 }
-
 void Player::draw(RenderTarget &target, RenderStates state) const
 {
     for (auto sprite : _sprite)
